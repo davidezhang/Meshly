@@ -1,12 +1,11 @@
 <!--
 *** README for GSD6338 Final Project - Meshly: A VR mesh making app
 *** Author: Davide Zhang
-*** Date: 12/14/2020
+*** Last Updated: 9/4/2021
 -->
 
 
 # Meshly: A VR Low-Poly Mesh Maker
-Note: only scripts were uploaded here due to GitHub file size limits and potential issues of Git and Unity.
 
 
 <!-- ABOUT THE PROJECT -->
@@ -72,7 +71,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
-To be updated.
+1. Hand tracking mode (WIP)
+2. Add helper labels (WIP)
+3. Face coloring
 
 <!-- LICENSE -->
 ## License
