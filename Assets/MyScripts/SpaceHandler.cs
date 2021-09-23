@@ -22,6 +22,10 @@ public class SpaceHandler : MonoBehaviour
 
     public GameObject colorPickerGameObj;
 
+    public GameObject createManual;
+    public GameObject sculptManual;
+    public GameObject colorManual;
+
     private string gameMode;
 
     private Quaternion originalOrientation;
@@ -43,6 +47,31 @@ public class SpaceHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //CHECK HELP
+        if (OVRInput.GetDown(OVRInput.RawButton.Start))
+        {
+
+            if (gameMode == "createMode")
+            {
+                createManual.SetActive(!createManual.activeSelf);
+                sculptManual.SetActive(false);
+                colorManual.SetActive(false);
+            }
+            else if (gameMode == "sculptMode")
+            {
+                sculptManual.SetActive(!sculptManual.activeSelf);
+                createManual.SetActive(false);
+                colorManual.SetActive(false);
+            }
+            else if (gameMode == "colorMode")
+            {
+                colorManual.SetActive(!colorManual.activeSelf);
+                sculptManual.SetActive(false);
+                createManual.SetActive(false);
+            }
+
+
+        }
 
 
         //ROTATION
