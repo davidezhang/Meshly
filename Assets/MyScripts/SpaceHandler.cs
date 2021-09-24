@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Xamin;
+using UnityEngine.SceneManagement;
 
 public class SpaceHandler : MonoBehaviour
 {
@@ -70,6 +71,21 @@ public class SpaceHandler : MonoBehaviour
                 createManual.SetActive(false);
             }
 
+
+        }
+
+        //SWITCH TO HAND-TRACKING SCENE
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            if (scene.name == "MainRoom_v2")
+            {
+                SceneManager.LoadScene("Meshly_hand_v1");
+            }
+            if (scene.name == "Meshly_hand_v1")
+            {
+                SceneManager.LoadScene("MainRoom_v2");
+            }
 
         }
 
