@@ -67,6 +67,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 1. Can only delete one vertex per time
 2. OBJ import might work with file exported from game, but not external
 3. OBJ import export do not retain vertex color information
+4. Switching to WIP Hand-tracking mode only supports one-way switching (currently switching back causes bugs)
 
 <!-- ROADMAP -->
 ## Roadmap
