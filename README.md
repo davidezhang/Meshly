@@ -68,6 +68,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 2. OBJ import might work with file exported from game, but not external
 3. OBJ import export do not retain vertex color information
 4. Switching to WIP Hand-tracking mode only supports one-way switching (currently switching back causes bugs)
+5. Hand-tracking mode only supports create mode and color mode for now
 
 <!-- ROADMAP -->
 ## Roadmap
