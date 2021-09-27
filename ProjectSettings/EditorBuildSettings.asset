@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Oculus/VR/Scenes/Room.unity
     guid: 54445976c1dbf1c49bb38ba7eba558e8
   - enabled: 1
-    path: Assets/Scenes/Meshly_hand_v1.unity
-    guid: 592fc0fc67f2cec4f8dd91c934ca65b8
-  - enabled: 1
     path: Assets/Scenes/MainRoom_v2.unity
     guid: 77fa0318c1ca7634e97c4819673e4431
+  - enabled: 1
+    path: Assets/Scenes/Meshly_hand_v1.unity
+    guid: 592fc0fc67f2cec4f8dd91c934ca65b8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e3aa78e144e8ca647ae171360dbc19f7,
       type: 2}
